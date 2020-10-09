@@ -1,0 +1,17 @@
+/* Stylesheet */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/background.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: auto;
+}
+
+.navbar {
+    font-size: larger;
+}
