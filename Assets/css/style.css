@@ -2,45 +2,54 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("../images/background.PNG");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+/* Styles navbar */
 .navbar {
     font-size: x-large;
+    background-color: rgba(0,0,0,.5);
 }
 
 .navbar-brand {
     font-size: xx-large;
 }
 
-body {
-    background-image: url("../images/background.PNG");
-    background-repeat: no-repeat;
-    background-size: 100vw;
+/* Styles main content on all 3 pages */
+.container {
+    margin-top: 7%;
 }
 
+.content {
+    border-radius: 5%;
+    background: rgba(128, 128, 128 , 0.75);
+    color: white;
+}
+
+/*Styles headshot on index.html*/
 .headshot { 
     width: 50%;
     float: left;
     margin-right: 5%;
     margin-bottom: 1%;
-}
-
-.about {
-    margin-top: 7%;
-}
-
-.about-content {
     border-radius: 5%;
-    background-color: gray;
-    color: white;
 }
 
-.portfolio {
-
-}
-
-.contact {
-
+/*Styles placeholder images on portfolio.html*/
+.placeholder {
+    width: 90%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
 }
 
 .footer {
