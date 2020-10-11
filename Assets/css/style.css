@@ -19,6 +19,10 @@ body {
     font-size: xx-large;
 }
 
+.sr-only {
+    font-weight: bolder;
+}
+
 /* Styles main content on all 3 pages */
 .container {
     margin-top: 7%;
@@ -49,7 +53,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: space-between;
+    align-items: space-evenly;
 }
 
 .footer {
