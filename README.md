@@ -13,7 +13,7 @@ The site has three pages:
 
 All pages are styled using the same stylesheet and each have unique Bootstrap elements. 
 
-## Deploymet
+## Deployment
 
 Click the link [here](https://dillonhoban.github.io/Responsive_Portfolio/) to check out my site in your browser.
 

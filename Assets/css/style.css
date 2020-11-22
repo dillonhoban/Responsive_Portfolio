@@ -29,7 +29,7 @@ body {
 }
 
 .content {
-    border-radius: 5%;
+    border-radius: 2em;
     background: rgba(128, 128, 128 , 0.75);
     color: white;
 }
@@ -38,18 +38,25 @@ body {
 .headshot { 
     width: 50%;
     float: left;
-    margin-right: 5%;
+    margin-right: 2em;
     margin-bottom: 1%;
-    border-radius: 5%;
+    border-radius: 2em;
+}
+
+.resume {
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 1%;
+    border-radius: 2em;
 }
 
 /*Styles placeholder images on portfolio.html*/
 .placeholder {
     width: 90%;
     float: left;
-    margin-right: 5%;
+    margin-right: 2em;
     margin-bottom: 1%;
-    border-radius: 5%;
+    border-radius: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
